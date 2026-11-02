@@ -48,3 +48,9 @@ Log in to <http://natas0.natas.labs.overthewire.org> with username `natas0` and 
 ## A note on passwords
 
 Per OverTheWire's request not to publish solutions' credentials, every password and secret in these notes is replaced with a placeholder like `<natas5 password>`. Follow the steps to recover them yourself.
+
+The real values live in a local `.env` file, which is git-ignored. Copy the template to start your own:
+
+```bash
+cp .env.example .env
+```
